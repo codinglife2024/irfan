@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock Aralm</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+<div class="clock">
+<img src="image.jfif" id="alarmImage">
+<h1 id="time_in_html">00:00:00</h1>
+<h2>Aram at : <span id="setalarmtime"></span></h2>
+<form >  
+     <input type="number" id="hours_html" placeholder="hours">
+    <input type="number" id="minutes_html" placeholder="minutes">
+</form>
+<button onclick="setALARM()">Set Aralm</button>
+<audio src="alarm_r.mp3" id="AramSound"></audio>
+</div>
+</body>
+<script src="clock.js"></script>
+</html>
